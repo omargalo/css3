@@ -1,3 +1,3 @@
-# html
-Repaso general de elementos básicos de html
+# css3
+Repaso general de elementos básicos de css3
 
