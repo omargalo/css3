@@ -22,13 +22,38 @@ p.especial {
 }
 
 table, th, td {
-    border: 1px solid blue;
+    border: 1px solid #00ffff;
 }
 
 div p {
-    color: aqua;
+    color: aliceblue;
 }
 
 div h2, h3 {
     color: darkgray;
 }
+/*
+.color {
+    color: #00ffff;
+}
+*/
+.color {
+    /* border: 5px yellow outset; */
+    /*
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+    */
+    border-style: outset;
+    border-color: yellow;
+    border-radius: 10px;
+    border-width: 5px;
+}
+
