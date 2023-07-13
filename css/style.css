@@ -1,7 +1,34 @@
+/*Esto es un comentario*/
+
 body {
-    color:chocolate;
+    color:aliceblue;
+    background-color:darkslategray;
+}
+
+#titulo {
+    color: aqua;
+}
+
+p.texto {
+    color:azure;
+}
+
+p.especial {
+    color:wheat;
+}
+
+.span {
+    color:chartreuse;
 }
 
 table, th, td {
     border: 1px solid blue;
+}
+
+div p {
+    color: aqua;
+}
+
+div h2, h3 {
+    color: darkgray;
 }
