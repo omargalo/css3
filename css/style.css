@@ -26,12 +26,8 @@ p.especial {
     color:wheat;
 }
 
-.span {
+#span {
     color:chartreuse;
-}
-
-table, th, td {
-    border: 1px solid #00ffff;
 }
 
 div p {
@@ -86,4 +82,131 @@ en el tag html que usualmente es de 16px
     width: 50px;
     overflow: scroll;
     outline: 4px solid yellow;
+}
+/*El orden importa en el color para los links*/
+a:link {
+    color: aquamarine;
+}
+
+a:visited {
+    color: burlywood;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+a:active {
+    color: red;
+}
+
+ul {
+    background-color: brown;
+    list-style: disc;
+    list-style-position: inside;
+    padding-left: 10px;
+}
+
+li {
+    list-style-type: lower-roman;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #00ffff;
+    padding: 5px;
+}
+
+th {
+    background-color: brown;
+}
+
+tr:nth-child(odd) {
+    background-color: darkslategray;
+}
+
+tr:hover {
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+/*
+Elementos inline por default:
+span, links, img
+*/
+
+span {
+    display: block; /*Fuerza al elemento en una nueva linea*/
+}
+/*
+elementos inline no se le puede asignar width y height
+para esto se utiliza inline-block
+*/
+.inline {
+    display: inline;
+}
+
+/*
+Position static es el valor por defecto en todos los
+elementos de html.
+relative: posición relativa en donde debe posicionarse.
+fixed: posición fija con respectoa lo que vemos en el explorador.
+absolute: posición relativo con el elemento padre mas cercano, en
+ausencia de este tomara la etiqueta body
+sticky: mezcla entre relative y fixed
+*/
+#position {
+    position: relative;
+    left: 50px;
+}
+/*
+Se utiliza mucho para hacer los menus de navegación de
+izquierda a derecha.
+*/
+.inline-block {
+    display: inline-block;
+    background-color: cadetblue;
+    height: 50px;
+}
+/*
+Centrar elementos, siempre se debe especificar un ancho que
+no sea del 100%
+*/
+.center {
+    margin: 0 auto;
+    padding: 50px 50px;
+    text-align: center;
+    background-color: slategrey;
+    width: 240px
+}
+
+.left {
+    width: 300px;
+    float: left
+}
+
+.right {
+    width: 300px;
+    float: right;
+}
+
+.derecha {
+    float: right;
+}
+
+.container {
+    height: 200px;
+    padding-top: 140px;
+}
+
+.column {
+    margin: 0;
+    border-color: #00ffff;
+    border-style: solid;
+    padding: 10px 10px;
+    width: 30%;
 }
