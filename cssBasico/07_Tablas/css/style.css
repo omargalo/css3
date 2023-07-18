@@ -1,0 +1,30 @@
+body {
+    background-color: #eee;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: azure;    
+}
+
+td {
+    padding: 5px;
+}
+
+table th {
+    background-color: aquamarine;
+    color: black;
+    text-shadow: 4px 2px 4px rgba(0,0,0,0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+table tfoot {
+    text-align: right;
+}
