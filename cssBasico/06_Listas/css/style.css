@@ -1,0 +1,16 @@
+body {
+    background-color: #eee;
+    padding: 20px;
+}
+
+ul {
+    background-color: #fff;
+    border: solid 2px #ddd;
+    border-radius: 4px;
+}
+
+li {
+    list-style-type: upper-roman;
+    border-bottom: solid 2px #ddd;
+    padding: 10px;
+}
