@@ -1,0 +1,23 @@
+body {
+    background-color: #eee;
+    padding: 20px;    
+}
+
+#overflow {
+    width: 150px;
+    height: 150px;
+    overflow: auto;
+}
+
+img {
+    width: 80px;
+    float: right;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+div p {
+    color: blueviolet;
+}
