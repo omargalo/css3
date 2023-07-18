@@ -1,0 +1,26 @@
+body {
+    background-color: #eee;
+    padding: 20px;
+}
+
+a{
+    color: hotpink;
+}
+
+a:link {
+    color: hotpink;
+    text-decoration: none;
+}
+
+a:visited {
+    color:tomato
+}
+
+a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+a:active {
+    color: aqua;
+}
