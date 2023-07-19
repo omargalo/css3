@@ -1,0 +1,11 @@
+body {
+    background-color: #eee;
+}
+
+.rgba {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.hsl {
+    background-color: hsla(360,90%,50%,0.5);
+}
