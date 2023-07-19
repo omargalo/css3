@@ -1,0 +1,13 @@
+body {
+    background-color: #eee;
+}
+
+.fondo {
+    height: 200px;
+    background-color: aquamarine;
+    background-image: url(/img/misato.png);
+    background-repeat: repeat-x;
+    background-blend-mode: screen;
+    background-attachment: fixed;
+    background-size: 80px;
+}
