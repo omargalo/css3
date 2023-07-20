@@ -1,0 +1,15 @@
+body {
+    background-color: #eee;
+}
+
+.grid {
+    display: grid;
+}
+
+.element {
+    background-color: aquamarine;
+}
+
+.inline-grid {
+    display: inline-grid;
+}
