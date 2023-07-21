@@ -1,0 +1,15 @@
+body {
+    background-color: #eee;
+    width: 200px;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.red {
+    background-color: red;
+}
